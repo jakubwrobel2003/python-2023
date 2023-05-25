@@ -1,7 +1,7 @@
 import math
 import random
 
-word_list = ["ardvark", "baboon", "camel"]
+from hangman_words import word_list
 word_count = len(word_list)
 random_number = random.randint(0, word_count-1)
 word = word_list[random_number]
